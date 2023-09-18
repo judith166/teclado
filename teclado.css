@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    font-family: 'Orbitron', sans-serif;
+    color:#041E49;
+    font-size: 20px;
+}
+
+body {
+   min-height: 100vh; 
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #F6F8FF;
+}
+
+textarea {
+    margin:10px auto;
+    outline: none;
+    border-radius: 10px;
+    color: #041E49;;
+
+}
+
+div {
+width: 80px;
+height: 60px;
+}
+
+.letra, .tecla {
+background: #3400ca;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+color:white;
+}
+
+.tecla{
+width: 100px;
+height: 60px;
+margin: 0 auto;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.tcl {
+text-align: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 820px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+#teclas {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 128px;
+width: 430px;
+cursor: pointer;
+}
+
+.letra:hover, .tecla:hover {
+    background: #1A71E9;
+    color: white;
+}
