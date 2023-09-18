@@ -9,4 +9,4 @@ Ejercicio creado durante el modulo de aprendizaje de Integracion de componentes 
 ## Trabajo creado en equipo
 
 - [@diefraumaschine](https://github.com/diefraumaschine)
-- [@judith166](https://github.com/judith16
+- [@judith166](https://github.com/judith166)
